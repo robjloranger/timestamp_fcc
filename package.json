@@ -1,0 +1,8 @@
+{
+  "name": "robsmicrotime",
+  "description": "a simple timestamp micro service for unix and natural time stamp conversion",
+  "main": "server.js",
+  "dependencies": {
+    "express": "~4.0.0"
+  }
+}

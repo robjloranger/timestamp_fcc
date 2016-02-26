@@ -1,0 +1,19 @@
+<!doctype>
+<html>
+  <head>
+    <title>Rob's Timestamp MicroService</title>
+  </head>
+  <body>
+    <h1>Timestamp Microservice</h1>
+    <blockquote>
+      This microservice will return a JSON object contianing both the unix timestamp and the natural language date string when provided with either counterpart. It was built by me, <a href="mailto:hello@robloranger.ca">rob j loranger</a> as part of the back end developer program at <a href="http://freecodecamp.com" target="_blank">FreeCodeCamp</a>.
+    </blockquote>
+    <h2>Example Query</h2>
+    <code> http://microtime.robloranger.ca/api?time=July%201,%201988</code>
+    <br>
+    <code> http://microtime.robloranger.ca/api?time=583743600</code>
+    <h2>Example Returned JSON</h2>
+    <code> {"unix":583743600, "natural":"July 1, 1988"}</code>
+  </body>
+</html>
+
