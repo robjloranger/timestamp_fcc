@@ -1,7 +1,7 @@
 // server.js
 //
 
-var express = require('express'), app = express(), PORT = 80, timeMe = require('./app/time.js');
+var express = require('express'), app = express(), PORT = 8080, timeMe = require('./app/time.js');
 app.use(express.static('public'));
 app.use(function(request,response,next){
   if(request.path === "/" || request.path === "/api"){
